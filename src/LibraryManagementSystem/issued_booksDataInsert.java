@@ -33,3 +33,15 @@ public class issued_booksDataInsert {
         }
     }
 }
+
+
+/*
+**Description — issued_booksDataInsert**
+
+This Java program inserts a book issue record into the `issued_books` table of a Library Management System database using JDBC. It creates a connection through the `DBConnection` class, which centralizes database credentials and connection logic. An SQL `INSERT` statement is defined to store issue details such as issue ID, book ID, member ID, issue date, return date, and current status.
+
+After establishing the database connection, the program creates a `Statement` object and executes the query using `executeUpdate()`. The returned value indicates how many rows were affected. If the value is greater than zero, the program prints a success message; otherwise, it indicates that insertion failed.
+
+Exception handling is implemented to catch and display any runtime or SQL errors that occur during execution. Finally, both the statement and connection are closed properly to release database resources and prevent memory leaks.
+
+ */

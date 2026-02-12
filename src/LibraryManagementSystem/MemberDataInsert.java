@@ -48,4 +48,10 @@ the data was
 (4, 'Rohit Singh', 'rohit@gmail.com', '9090909090', '2026-01-18', 'ACTIVE')
 (5, 'Sneha Patel', 'sneha@gmail.com', '8888888888', '2026-01-20', 'INACTIVE')
 
+
+
+**Short Description — MemberDataInsert**
+
+This Java program inserts a member record into the `members` table using JDBC. It connects to the database through the `DBConnection` class, executes an SQL `INSERT` statement, verifies whether the insertion was successful based on affected rows, and then safely closes the statement and connection. Exception handling is included to manage runtime or SQL errors.
+
  */

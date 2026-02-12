@@ -48,4 +48,11 @@ there waa a data to be inserted in books table
 (107, 'Think and Grow Rich', 'Napoleon Hill', 'Motivation', 4, 4)
 (108, 'Deep Work', 'Cal Newport', 'Productivity', 3, 3)
 
+
+
+
+**Short Description — BooksDataInsert**
+
+This Java program inserts a book record into the `books` table using JDBC. It connects to the database via a `DBConnection` class, executes an SQL `INSERT` query, checks if the row was added successfully, and then closes the connection and statement. It also handles SQL exceptions to prevent crashes.
+
  */

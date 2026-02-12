@@ -40,3 +40,14 @@ public class ViewAllBooks {
         }
     }
 }
+
+/*
+**Description — ViewAllBooks**
+
+This Java program retrieves and displays all records from the `books` table of a Library Management System database using JDBC. It establishes a connection through the `DBConnection` class, which manages database credentials and connection setup.
+
+An SQL `SELECT` query is prepared to fetch all columns from the `books` table. The program executes the query using a `PreparedStatement` and stores the result in a `ResultSet`. It then iterates through each row using a `while` loop and prints book details such as book ID, title, author, category, quantity, and available copies in a formatted output.
+
+Exception handling is included to catch and display any errors that occur during database operations. Finally, the program closes the `PreparedStatement` and database connection to release resources and ensure proper JDBC resource management.
+
+ */
